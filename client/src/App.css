@@ -1,3 +1,4 @@
+/* CSS App.tsx framework */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,6 @@ body {
 
 #root {
   height: 100vh;
-  background-image: url("./assets/images/background.webp");
   background-size: cover;
   background-position: top;
   display: grid;
@@ -142,4 +142,36 @@ footer {
       #a00ac9, 0 0 60px #ff0000, 0 0 10px #970dc5, 0 0 98px #ff0000;
     color: #fff;
   }
+}
+
+/* CSS App.tsx framework */
+.MovieListWrapper {
+  display: flex;
+}
+
+.filmCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  padding: 1rem;
+}
+
+.filmPoster {
+  width: 10vw;
+} 
+
+.filmTitle {
+  font-weight: 700;
+  font-size: 1.2 rem;
+  color:#111;
+}
+
+.filmSysnopsis {
+ color:#111;
+ font-size: 0.8rem;
+}
+
+.filmYear {
+  color:#111;
 }
