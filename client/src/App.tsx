@@ -23,7 +23,7 @@ useEffect(() => {
   return (response.json());
   })
   .then((data)=> {
-   console.log(data)
+   //console.log(data)
     setMovieList(data);
   })
   .catch((error) => {
@@ -35,7 +35,7 @@ useEffect(() => {
   function handleSysnopsisLenght(item : movieList )
   {
     let   string = item.synopsis;
-    const stringLength = string.length;
+    const   stringLength = string.length;
 
     if(stringLength > 200)
     { 
